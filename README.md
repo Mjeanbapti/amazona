@@ -1,21 +1,15 @@
-# Amazona ECommerce Website
-![amazona](/template/images/amazona.jpg)
-## PLEASE DO NOT SEND PULL REQUEST
-## ALL PRs WILL BE REJECTED UNTIL DECEMBER 2020
-# React & Node Tutorial - Full ECommerce in 9 Hours [2021]
-Welcome to my React and Node tutorial to build a fully-functional e-commerce website exactly like amazon. Open your code editor and follow me for the next hours to build an e-commerce website using MERN stack (MongoDB, ExpressJS, React and Node.JS).
-## Demo Website
-- 👉 Heroku : [https://newamazona-final.herokuapp.com](https://newamazona-final.herokuapp.com)
-- 👉 AWS : [https://amazona.webacademy.pro](https://amazona.webacademy.pro)
-## You Will Learn
+# ECommerce Website
+
+Welcome to my fully-functional e-commerce website using MERN stack (MongoDB, ExpressJS, React and Node.JS).
+
+## Technology
 - HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
 - React: Components, Props, Events, Hooks, Router, Axios
 - Redux: Store, Reducers, Actions
 - Node & Express: Web API, Body Parser, File Upload, JWT
 - MongoDB: Mongoose, Aggregation
 - Development: ESLint, Babel, Git, Github,
-- Deployment: Heroku
-- Watch React & Node Tutorial
+
 ## Run Locally
 ### 1. Clone repo
 ```
@@ -51,15 +45,9 @@ $ npm start
 ### 6. Admin Login
 - Run http://localhost:3000/signin
 - Enter admin email and password and click signin
-## Support
-- Q/A: https://webacademy.pro/amazona
-- Contact Instructor: [Basir](mailto:basir.jafarzadeh@gmail.com)
-## Lessons
-1. Introduction to this course
-   1. what you will build
-   2. what you will learn
-   3. who are audiences
-2. Install Tools
+
+
+1. Install Tools
    1. Code Editor
    2. Web Browser
    3. VS Code Extension

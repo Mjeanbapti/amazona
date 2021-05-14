@@ -297,9 +297,9 @@ $ npm start
 43. Delete Order
     2. create delete order action and reducer
     3. add order delete action to order list
-    3. add order delete action to order list
 44. Deliver Order
     1. create constant, actions and reducers for deliver order
+    2. add order deliver action to order details screen
     2. add order deliver action to order details screen
 45. Publish To Heroku
     1. Create git repository
@@ -312,5 +312,3 @@ $ npm start
     12. Create mongodb atlas database
     19. Set database connection in heroku env variables
     20. Commit and push
-#   a m a z o n a  
- 

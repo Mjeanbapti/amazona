@@ -294,6 +294,10 @@ img.large{
   margin: 0 0.2rem;
 }
 
+/* Carousel */
+.carousel .slide img {
+  max-width: 30rem;
+}
 /* Sidebar */
 .brand button{
   font-size: 3rem;

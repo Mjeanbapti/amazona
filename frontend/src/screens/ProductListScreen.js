@@ -5,6 +5,7 @@ import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import { PRODUCT_CREATE_RESET, PRODUCT_DELETE_RESET } from '../constants/productConstants';
 export default function ProductListScreen(props) {
+    const sellerMode = props.match.path.indexOf('/seller') >= 0;
     const productList = useSelector((state) => state.productList);
     const { loading, error, products} = productList;
 
@@ -13,7 +14,8 @@ export default function ProductListScreen(props) {
 
     const productDelete = useSelector((state) => state.productDelete);
     const { loading: loadingDelete, error: errorDelete, success: successDelete} = productDelete;
-    
+    const userSignin = useSelector((state) => state.userSignin);
+    const {userInfo} = userSignin;
     const dispatch = useDispatch();
     useEffect(() => {
         if(successCreate){
@@ -23,7 +25,7 @@ export default function ProductListScreen(props) {
         if(successDelete){
             dispatch({type: PRODUCT_DELETE_RESET});
         }
-        dispatch(listProducts());
+        dispatch(listProducts({seller: sellerMode? userInfo._id : ''}));
     }, [dispatch, props.history, successCreate, createdProduct, successDelete]);
 
     const deleteHandler = (product) => {

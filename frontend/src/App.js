@@ -31,7 +31,7 @@ import MessageBox from './components/MessageBox';
 function App() {
   const cart = useSelector((state) => state.cart);
   const { cartItems } = cart;
-  const [sidebarIsOpen, setSidebarIsOpen] = useState(false);
+  const [ sidebarIsOpen, setSidebarIsOpen ] = useState(false);
   const userSignin = useSelector((state) => state.userSignin);
   const { userInfo } = userSignin;
   const dispatch = useDispatch();
@@ -155,7 +155,7 @@ function App() {
           <Route path="/search/name/:name?" component={SearchScreen} exact ></Route>
           <Route path="/search/category/:category?" component={SearchScreen} exact ></Route>
           <Route path="/search/category/:category/name/:name" component={SearchScreen} exact ></Route>
-
+          <Route path="/search/category/:category/name/:name/min/:min/max/:max/rating/:rating/order/:order" component={SearchScreen} exact></Route>
           <PrivateRoute path="/profile" component={ProfileScreen}></PrivateRoute>
           <AdminRoute path="/productlist" component={ProductListScreen}exact></AdminRoute>
           <AdminRoute path="/orderlist" component={OrderListScreen}exact></AdminRoute>

@@ -347,3 +347,15 @@ $ npm start
  56. Rate and Review Products
      1.  rate products
      2.  create actions and reducers
+ 57. Choose Address On Google Map
+    *********************************
+ 58. BugFix: Running Locally Without Issue
+     1.  add seller info to data.js
+     2.  seed product data with admin info as seller
+     3.  fix isSeller and isAdmin on update user
+     4.  remove auth from user details
+     4.  remove auth from user details
+ 59. Implement Pagination
+     1.  add pagination to product router in backend
+     2.  apply page number to actions and reducers in frontend
+     3.  show page numbers in search screen

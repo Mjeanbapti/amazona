@@ -27,6 +27,7 @@ import SearchScreen from './screens/SearchScreen';
 import { listProductCategories } from './actions/productActions';
 import LoadingBox from './components/LoadingBox';
 import MessageBox from './components/MessageBox';
+import DashboardScreen from './screens/DashboardScreen';
 
 function App() {
   const cart = useSelector((state) => state.cart);
@@ -161,6 +162,7 @@ function App() {
           <AdminRoute path="/orderlist" component={OrderListScreen}exact></AdminRoute>
           <AdminRoute path="/userlist" component={UserListScreen}></AdminRoute>
           <AdminRoute path="/user/:id/edit" component={UserEditScreen}></AdminRoute>
+          <AdminRoute path="/dashboard" component={DashboardScreen}></AdminRoute>
           <AdminRoute path="/productlist/pageNumber/:pageNumber" component={ProductListScreen} exact></AdminRoute>
           <SellerRoute path="/productlist/seller" component={ProductListScreen} ></SellerRoute>
           <SellerRoute path="/orderlist/seller" component={OrderListScreen} ></SellerRoute>

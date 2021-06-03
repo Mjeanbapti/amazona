@@ -336,26 +336,37 @@ $ npm start
     4. edit parse url to get query string
     5. update product list api for search by name
     5. update product list api for search by name
- 54. Add Advanced Search Filter
-     1.  filter by category
-     2.  filter by price range
-     3.  filter by average rating
- 55. Complete Advanced Search
-     1.  filter by price
-     2.  filter by rating
-     3.  sort by price, rating, ...
- 56. Rate and Review Products
-     1.  rate products
-     2.  create actions and reducers
- 57. Choose Address On Google Map
+54. Add Advanced Search Filter
+    1. filter by category
+    2. filter by price range
+    3. filter by average rating
+55. Complete Advanced Search
+    1. filter by price
+    2. filter by rating
+    3. sort by price, rating, ...
+56. Rate and Review Products
+    1. rate products
+    2. create actions and reducers
+57. Choose Address On Google Map
     *********************************
- 58. BugFix: Running Locally Without Issue
-     1.  add seller info to data.js
-     2.  seed product data with admin info as seller
-     3.  fix isSeller and isAdmin on update user
-     4.  remove auth from user details
-     4.  remove auth from user details
- 59. Implement Pagination
-     1.  add pagination to product router in backend
-     2.  apply page number to actions and reducers in frontend
-     3.  show page numbers in search screen
+58. BugFix: Running Locally Without Issue
+    1. add seller info to data.js
+    2. seed product data with admin info as seller
+    3. fix isSeller and isAdmin on update user
+    4. remove auth from user details
+    5. remove auth from user details
+59. Implement Pagination
+    1. add pagination to product router in backend
+    2. apply page number to actions and reducers in frontend
+    3. show page numbers in search screen
+60. Email order receipt by mailgun
+    1. create mailgun account 
+    2. add and verify your domain to mailgun 
+    3. install mailgun-js 
+    4. set api key in env file 
+    5. change pay order in orderRouter 
+    6. send email
+61. Upload Product Images on AWS S3
+    *************************************
+62. Create Dashboard Chart Screen
+    1. Create chart data
